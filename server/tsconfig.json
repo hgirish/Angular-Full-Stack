@@ -1,0 +1,9 @@
+{
+    "extends": "../tsconfig.json",
+    "compilerOptions": {
+      "outDir": "../dist/server",
+      "baseUrl": "",
+      "module": "ES2022",
+      "skipLibCheck": true // Added due to jest and jasmine errors
+    }
+  }
